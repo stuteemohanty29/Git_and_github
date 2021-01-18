@@ -1,0 +1,38 @@
+MAC terminal shortcut and Github Installation
+1) Open Launchpad from your Dock or with the keyboard shortcut Fn + F4.
+2) Type “Terminal” into the search box at the top.
+3) When the Terminal icon displays, click it.
+--------------------------------------------
+Press Cmd + Space to open Spotlight search, and type terminal and hit return.
+----------------------------------------------------
+Github steps:
+Copy & paste the following into the terminal window and hit Return.
+1. /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+Press Enter
+After getting password message to enter login password (you have to keep typing the password as the
+password will not visible )
+You will get Press RETRUN message,
+Press Enter
+After getting password message to enter login password (you have to keep typing the password as the
+password will not visible )
+After completion of download enter the following command.
+2. brew install git
+3. git --version
+You can use Git now.
+
+---------------------------
+configuration
+---------------------------
+git config --global user.name "your github user name"
+git config --global user.email "your github email"
+
+pwd-present working directory(to know the current path)
+cd(change directory)- to move/open to a paticular folder
+mkdir <name_directory>- to create a new folder
+cd.. -come out of a directory 
+ls- list of files
+
+git clone <git link>
+git status 
+git add <file_name>
+git commit -m "<message>"
