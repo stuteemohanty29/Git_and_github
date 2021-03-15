@@ -36,3 +36,8 @@ git clone <git link>
 git status 
 git add <file_name>
 git commit -m "<message>"
+ 
+ 
+ create a new repository in github
+ git remote add <any_name of your choice> <new repository link>
+ git push -u <any_name of your choice>
